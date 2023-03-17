@@ -50,3 +50,7 @@ Be careful when dealing with the vignette.tex as it typically doesn't look good 
 Make sure to also copy over the half files that get generated. As they are what seem to ascually change the look ingame.
 
 All textures you modify are client sided so others won't see your changes. That includes card fronts and backs.
+
+# Screenshots
+[](screenshot/mainMenu.png)
+[](screenshot/inGame.png)
