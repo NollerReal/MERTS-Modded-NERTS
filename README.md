@@ -28,15 +28,25 @@ First of all, you should own this game, you can buy it on [steam](https://store.
   
 ## 2. copy game files to MERTS working directory
 
-* copy ``Packed/*.tex`` to ``./images/Packed``
+* copy the ``Packed`` folder from the game directory, typically located in ``C:\Program Files (x86)\Steam\steamapps\common\Nerts Online\Content`` and paste it in the  ``./images/`` folder of the mod directory
 
 # Modify the textures
 Run ``images/export_texture.py`` 
 
-It will traverse directory ``images/Packed``, convert all .tex files to .png into the directory ``out``.
+It will look directory in the ``images/Packed`` folder and convert all .tex files to .png into the directory ``pngOutput``.
 
-Pick up the images what you want to modify. (No need for ``half``'s, they will be generated  automatically.)
+Change the images that you want to modify. (Don't worry about editing the ``half`` folder, as it gets automatically created later on)
 
-Put all of them in the `new` dirctory, keep the same directory struct.
+Put all of them in the `new` dirctory, and keep the same structure as the Packed folder.
 
-Run ``run.bat``, the patch folder with the new .tex files will be generated in ``patch`` directory.
+Run ``convert.bat``, and the .tex files will be created including the ``half`` folder. They will be located in the ``patch`` directory.
+
+copy the .tex files back into the NERTS! game directory, make sure to not just delete the ``texture`` folder already in the game as there are some files that shouldn't be deleted.
+
+## Things to Note
+
+Be careful when dealing with the vignette.tex as it typically doesn't look good when chaning the hue. (from what I've tested)
+
+Make sure to also copy over the half files that get generated. As they are what seem to ascually change the look ingame.
+
+All textures you modify are client sided so others won't see your changes. That includes card fronts and backs.
