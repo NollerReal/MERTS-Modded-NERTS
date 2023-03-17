@@ -54,3 +54,10 @@ All textures you modify are client sided so others won't see your changes. That 
 # Screenshots
 ![](screenshots/screenshot_1.jpg)
 ![](screenshots/screenshot_2.jpg)
+
+
+# Upcoming Plans
+
+* Make a tutorial video / why i wasted my time on this vid
+
+* Make a website where people can upload themes or something
