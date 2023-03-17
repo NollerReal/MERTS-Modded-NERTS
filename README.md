@@ -63,3 +63,5 @@ All textures you modify are client sided so others won't see your changes. That 
 * Make a website where people can upload themes or something
 
 * Make a release once tutorial is done.
+
+* Create a Steam Guide.
