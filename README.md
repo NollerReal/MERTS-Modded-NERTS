@@ -31,7 +31,7 @@ First of all, you should own this game, you can buy it on [steam](https://store.
 * copy the ``Packed`` folder from the game directory, typically located in ``C:\Program Files (x86)\Steam\steamapps\common\Nerts Online\Content`` and paste it in the  ``./images/`` folder of the mod directory
 
 # Modify the textures
-Run ``images/export_texture.py`` 
+Run ``images/exportTextures.py`` 
 
 It will look directory in the ``images/Packed`` folder and convert all .tex files to .png into the directory ``pngOutput``.
 
@@ -39,7 +39,7 @@ Change the images that you want to modify. (Don't worry about editing the ``half
 
 Put all of the new textures in the `new` dirctory, and keep the same structure as the Packed folder. Names and everything. Should look like ``.\new\Packed\textures``.
 
-Run ``convert.bat``, and the .tex files will be created including the ``half`` folder. They will be located in the ``patch`` directory.
+Run ``images/importTextures.py``, and the .tex files will be created including the ``half`` folder. They will be located in the ``patch`` directory.
 
 copy the .tex files back into the NERTS! game directory, make sure to not just delete the ``texture`` folder already in the game as there are some files that shouldn't be deleted.
 
