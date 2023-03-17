@@ -2,7 +2,7 @@
 
 This is an unoffical mod project for the game NERTS! Online.
 
-First at all, you should own this game, you can buy it on [steam](https://store.steampowered.com/app/1131190/NERTS_Online/).
+First of all, you should own this game, you can buy it on [steam](https://store.steampowered.com/app/1131190/NERTS_Online/).
 
 # Prepare the Environment
 ## 1. Install [python](https://www.python.org/) and some dependent libraries.
