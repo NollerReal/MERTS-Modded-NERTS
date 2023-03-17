@@ -35,9 +35,9 @@ Run ``images/export_texture.py``
 
 It will look directory in the ``images/Packed`` folder and convert all .tex files to .png into the directory ``pngOutput``.
 
-Change the images that you want to modify. (Don't worry about editing the ``half`` folder, as it gets automatically created later on)
+Change the images that you want to modify. (Don't worry about editing the ``half`` and the ``fonts`` folder, as it gets automatically created later on)
 
-Put all of them in the `new` dirctory, and keep the same structure as the Packed folder.
+Put all of the new textures in the `new` dirctory, and keep the same structure as the Packed folder. Names and everything. Should look like ``.\new\Packed\textures``.
 
 Run ``convert.bat``, and the .tex files will be created including the ``half`` folder. They will be located in the ``patch`` directory.
 
