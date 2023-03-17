@@ -52,5 +52,5 @@ Make sure to also copy over the half files that get generated. As they are what 
 All textures you modify are client sided so others won't see your changes. That includes card fronts and backs.
 
 # Screenshots
-[](screenshot/mainMenu.png)
-[](screenshot/inGame.png)
+![](screenshot/mainMenu.png)
+![](screenshot/inGame.png)
