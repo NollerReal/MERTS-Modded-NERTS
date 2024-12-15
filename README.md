@@ -4,6 +4,10 @@ This is an unoffical mod project for the game NERTS! Online.
 
 First of all, you should own this game, you can buy it on [steam](https://store.steampowered.com/app/1131190/NERTS_Online/).
 
+Second, this is a core mod, that shows you the steps to create your own texture pack for NERTS.
+
+There will be a seperate area for finished texture packs that people make and submit.
+
 # Prepare the Environment
 ## 1. Install [python](https://www.python.org/) and some dependent libraries.
 
