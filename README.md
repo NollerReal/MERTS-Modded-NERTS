@@ -7,7 +7,7 @@ First of all, you should own this game, you can buy it on [steam](https://store.
 # Prepare the Environment
 ## 1. Install [python](https://www.python.org/) and some dependent libraries.
 
-* install python 3 from their [website](https://www.python.org/downloads/) or from the Windows Store App
+* install python 3 from their [website](https://www.python.org/downloads/) that version comes with pip pre-installed.
 
 * install [pandas](https://pandas.pydata.org/)
   ```
@@ -33,9 +33,9 @@ First of all, you should own this game, you can buy it on [steam](https://store.
 # Modify the textures
 Run ``images/exportTextures.py`` 
 
-It will look directory in the ``images/Packed`` folder and convert all .tex files to .png into the directory ``pngOutput``.
+It will look at the ``images/Packed`` folder and convert all .tex files to .png into the directory ``pngOutput``.
 
-Change the images that you want to modify. (Don't worry about editing the ``half`` and the ``fonts`` folder, as it gets automatically created later on)
+Get Creative! Change the images that you want to modify (Photoshop; Paint even). (Don't worry about editing the ``half`` and the ``fonts`` folder, as it gets automatically created later on)
 
 Put all of the new textures in the ``new`` directory; delete the ``placeholder`` file and keep the same structure as the Packed folder. Names and everything. Should look like ``.\new\Packed\textures``.
 
