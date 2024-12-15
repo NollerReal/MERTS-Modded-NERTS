@@ -59,6 +59,10 @@ All textures you modify are client sided so others won't see your changes. That 
 ![](screenshots/screenshot_1.jpg)
 ![](screenshots/screenshot_2.jpg)
 
+# Tutorial Video
+[![Watch the video](https://img.youtube.com/vi/RB0NOGFpYuw/maxresdefault.jpg)](https://youtu.be/RB0NOGFpYuw)
+
+### [Watch this video on YouTube](https://youtu.be/RB0NOGFpYuw)
 
 # Upcoming Plans
 
